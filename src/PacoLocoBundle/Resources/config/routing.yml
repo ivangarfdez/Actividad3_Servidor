@@ -1,0 +1,14 @@
+paco_homepage:
+    path:     /
+    defaults: { _controller: PacoLocoBundle:Default:index}
+
+
+paco_msg:
+    path:     /msg
+    defaults: { _controller: PacoLocoBundle:Default:mensage}
+
+
+all_msgTexto:
+    path:     /msgTexto/{texto}
+    defaults: { _controller: PacoLocoBundle:Default:mensageTexto}
+
